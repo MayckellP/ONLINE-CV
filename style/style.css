@@ -42,6 +42,7 @@ header {
   text-decoration: none;
   font-size: 30px;
 }
+
 #nav-menu li .nav-name {
   display: inline-block;
   color: white;
@@ -57,7 +58,7 @@ header {
 /*---------------------------------------------------------CONFIGIRATION GENERAL  -------------*/
 #cont-side {
   width: 25%;
-  background-color: #188088;
+  background-color: #18886d;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
 }
@@ -161,6 +162,8 @@ header {
 }
 #cont-job h2 {
   width: 95%;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .line-img {
@@ -187,6 +190,8 @@ header {
 }
 #cont-edu h2 {
   width: 95%;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .img-edu {
   width: 80%;
@@ -211,6 +216,8 @@ header {
 }
 #cont-ref h2 {
   width: 95%;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .img-ref {
   width: 95%;
@@ -234,6 +241,7 @@ header {
   display: flex;
   justify-content: space-between;
   padding-left: 20px;
+  bottom: 0;
 }
 .text-ft-right {
   color: white;

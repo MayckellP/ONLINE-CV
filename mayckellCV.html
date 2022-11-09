@@ -12,30 +12,19 @@
 <body>
     <div id="fondo">
         <header>
-            <nav class="navbar navbar-dark bg-dark fixed-top">
-                <div class="container-fluid">
-                  <a class="navbar-brand" href="#"><img src="images/cv.png" alt="" style="width: 10%; margin-right:20px">Design CV of Companion</a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
-                    <div class="offcanvas-header">
-                      <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Students CV</h5>
-                      <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                    </div>
-                    <div class="offcanvas-body">
-                      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                        <li class="nav-item">
-                          <a class="nav-link active" aria-current="page" href="mayckellCV.html">Mayckell Perez</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="index.html">Samir Oualif</a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </nav>
+            <ul id="nav-menu">
+                <li>
+                    <a id="nav-tlt">
+                        <img src="images/cv.png" alt="" style="width: 10%; margin-right:20px">Design CV of Companion
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-name" href="mayckellCV.html">Mayckell Perez</a>
+                </li>
+                <li>
+                    <a class="nav-name" href="index.html">Samir Oualif</a>
+                </li>
+            </ul>
         </header>
         <div id="cont-total">
             <!--INICIO DEL CONTENEDOR LATERAL-->
@@ -220,22 +209,22 @@
                     <h2 class="sub-tlt">REFERENCE</h2>
                     <table>
                         <tr>
-                            <td class="line-img">
-                                <img class="img-ref" src="images/google.png" alt="">
+                            <td class="line-img-ref">
+                                <img class="img-ref" src="images/Maersk-Symbol.png" alt="">
                             </td>
                             <td class="ref-left"><b>Larry Page,</b> Director Ejecutivo de Google.</td>
                             <td class="ref-right"><b>Tel. +417 562 48651</b></td>
                         </tr>
                         <!--FIN DE TABLA-->
-                            <td class="line-img">
-                                <img class="img-ref" src="images/microsoft.png" alt="">
+                            <td class="line-img-ref">
+                                <img class="img-ref" src="images/gusber.png" alt="">
                             </td>
                             <td class="ref-left"><b>Larry Page,</b> Director Ejecutivo de Google.</td>
                             <td class="ref-right"><b>Tel. +417 562 48651</b></td>
                         </tr>
                         <!--FIN DE TABLA-->
-                            <td class="line-img">
-                                <img class="img-ref" src="images/twitter.png" alt="">
+                            <td class="line-img-ref">
+                                <img class="img-ref" src="images/Logo-INTransport.webp" alt="">
                             </td>
                             <td class="ref-left"><b>Larry Page,</b> Director Ejecutivo de Google.</td>
                             <td class="ref-right"><b>Tel. +417 562 48651</b></td>
@@ -246,13 +235,14 @@
             </aside>
         </div>
     </div>
-    <footer class="bg-light text-center text-lg-start">
-        <div class="text-center text-light p-3" style="background-color: rgb(0, 0, 0);">
+    <footer id="footer">
+        <div class="text-ft-left">
+            <a href="https://github.com/MayckellP/ONLINE-CV"><img src="images/github-ft.png" alt=""> Github Link</a>
+          </div>
+        <div class="text-ft-right">
           © 2022 Copyright:
-          <a class="text-light" href="https://opportunity.stiftung-sag.ch/">Opportunity</a>
+          <a class="link-footer" href="https://opportunity.stiftung-sag.ch/">Opportunity</a>
         </div>
       </footer>
-    <!--BOOTSTRAP-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
